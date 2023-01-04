@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import './Nav.css'
 import Avatar from '@mui/material/Avatar'
-import foresightLogo from '../../images/logo.png'
+import clanceysLogo from '../../images/logo.png'
 import Drawer from '@mui/material/Drawer'
 import List from '@mui/material/List'
 import ListItemText from '@mui/material/ListItemText'
@@ -66,11 +66,11 @@ function Nav() {
           anchor="left"
         >
           <List>
-            {/* All users see the foresight logo */}
+            {/* All users see the clancys logo */}
             <ListItemButton component={Link} to="/home">
               <Avatar
-                src={foresightLogo}
-                sx={{ width: 80, height: 80 }}
+                src={clanceysLogo}
+                sx={{ width: 100, height: 100 }}
                 style={{ borderRadius: 0, padding: 10, paddingLeft: 50 }}
               />
             </ListItemButton>
